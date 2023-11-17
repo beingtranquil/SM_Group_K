@@ -28,7 +28,7 @@ class LoginPage(tk.Frame):
     def login(self):
         username = self.username_entry.get()
         password = self.password_entry.get()
-        if username == "" and password == "":
+        if username == "user" and password == "pass":
             self.controller.show_frame(ViewSalesPage)
         else:
             # Add code to handle invalid login, e.g., show an error message
