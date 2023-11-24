@@ -173,8 +173,8 @@ class ViewSalesPage(tk.Frame):
 
         tk.Label(input_frame, text="").grid(row=11,column=0)
 
-        button = tk.Button(input_frame, text="Logout",command=lambda: controller.show_frame(LoginPage))
-        button.grid(row=12, column=4)
+        # button = tk.Button(input_frame, text="Logout",command=lambda: controller.show_frame(LoginPage))
+        # button.grid(row=12, column=4)
 
 
 from pages.LoginPage import LoginPage

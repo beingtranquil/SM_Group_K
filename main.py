@@ -25,7 +25,7 @@ class Metricstics(tk.Tk):
             self.frames[F] = frame
             frame.grid(row=0, column=0, sticky="nsew")
 
-        self.show_frame(LoginPage)
+        self.show_frame(ViewSalesPage)
     
     def show_frame(self, page):
         frame = self.frames[page]
